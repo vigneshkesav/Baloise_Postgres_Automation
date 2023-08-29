@@ -1,0 +1,9 @@
+---
+host_name: jumphost.lab.local 
+db_user: postgres
+db_password: postgres
+db_name: baloise_db
+backup_location: /var/lib/pgsql/baloise_db_bkp.dump
+transaction_log_backup_location: /var/lib/pgsql/psql_transaction_log_bkp.log
+clone_db_name: baloise_db_clone
+log_date: 2023-08-17_05_37_52X
